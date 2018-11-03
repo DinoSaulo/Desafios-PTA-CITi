@@ -1,0 +1,82 @@
+
+#citi-logo {
+    width: 30%;
+    height: 30%;
+}
+
+#img-home {
+    opacity: 0.5;
+    border: none;
+    display: block;
+
+}
+
+#nav-text {
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+    color: white;
+    padding-top: 10px;
+
+}
+
+header {
+    
+}
+
+
+html, body { 
+    height: 100%; 
+    margin: 0; 
+}
+
+.nav-top {
+    display: flex;
+    position: absolute;
+
+    z-index: 1;
+
+    margin-top: 20px;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.body-home {
+    position: relative;
+    background-color: #8cba4e;
+}
+
+#carrosel {
+    padding-left: 300px;
+    padding-right: 300px;
+
+    background:purple;
+    height: 500px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#form {
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.citiano {
+    height: 300px;
+    width: 200px;
+    color: black;
+    -webkit-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.24);
+    background: white;
+    margin: 5px;
+}
+
