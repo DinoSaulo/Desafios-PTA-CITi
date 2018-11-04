@@ -44,12 +44,6 @@ html, body {
     align-self: auto;
 }
 
-.bar {
-    flex-grow: 1;
-    flex-shrink: 1,;
-    flex-basis: auto;
-
-}
 
 /*-- first sesson --*/
 
