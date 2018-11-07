@@ -58,16 +58,18 @@ html, body {
 
 }
 
-.body-home {
+.body-home, .slider {
     position: relative;
     background-color: #8cba4e;
 }
 
+
+
 /*-- second sesson --*/
 
 #carrosel {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 500px;
+    padding-right: 500px;
 
     background:gray;
     height: 500px;
@@ -87,7 +89,7 @@ html, body {
     margin: 5px;
 }
 
-/*-- 3 sesson --*/
+/*-- third sesson --*/
 #form {
     height: 500px;
 
@@ -98,7 +100,7 @@ html, body {
 }
 
 .button {
-    background-color: #FFFFFF; /* Green */
+    background-color: #FFFFFF;
     border: none;
     color: #8cba4e;
     padding: 15px 32px;
@@ -113,3 +115,27 @@ html, body {
     color: white;
 }
 
+/* second and third sesson - title definitions */
+
+.topfeedbacks-title, .sendfeedback-title {
+    height: 180px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#topfeedbacks-text, #sendfeedbacks-text {
+    text-align: center;
+    font-size: 25px;
+    color: #8cba4e;
+    padding-top: 10px;
+}
+
+.topfeedbacks-line, .sendfeedback-line {
+    width: 900px;
+}
