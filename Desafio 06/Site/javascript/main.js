@@ -7,4 +7,7 @@ $(document).ready(function(){
       cssEase: 'linear'
     });
   });
+
+
+  
 // https://jsfiddle.net/solodev/dbowxqc6/
