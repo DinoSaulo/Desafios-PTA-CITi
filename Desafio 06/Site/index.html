@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
     
 </head>
 
@@ -66,7 +67,7 @@
 
     </div>
 
-    <div>
+    <div class="feedback">
         <section class="sendfeedback-title">
             <article class="sendfeedback-line">
                     <hr>
@@ -81,24 +82,27 @@
             </article>
         </section>
 
-        <section id="form">
+        <form class="sendfeedbacks-form">
             <article id="data-form">
-                    <input class="namemail" type="text" name="nome">
-                    <input class="namemail" type="text" name="e-mail">
+                <div id="sendfeedback-name">
+                    <div id="sendfeedback-titles">Meu nome</div>
+                    <input class="sendfeedback-boxname" type="text" name="nome" size="30" rows="4" required>
+                </div>
+                <div id="sendfeedback-email">
+                    <div id="sendfeedback-titles">Meu e-mail</div>
+                    <input class="sendfeedback-boxemail" placeholder="nome.nome@citi.org.br" type="text" name="e-mail" size="30" required>
+                </div>
             </article>
             <article>
-                <textarea class="mensage" rows="4" cols="100" style="resize:none;"></textarea>
+                <div id="sendfeedback-titles">Feedback</div>
+                <textarea class="sendfeedback-mensage" rows="6" cols="auto" style="resize:none;" required></textarea>
             </article>
             <article>
                 <input type="button" class="button" value="Enviar">
             </article>
-        </section>
-
+        </form>
         
     </div>
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>

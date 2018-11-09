@@ -1,9 +1,11 @@
+
+
 /*-- all site --*/
 
 html, body { 
     height: 100%; 
     margin: 0; 
-    font-family: "Arial", sans-serif;
+    font-family: Roboto Condensed, sans-serif;
     position: relative;
     overflow-x: hidden;
 }
@@ -18,7 +20,7 @@ html, body {
     height: 180px;
     width: 100%;
 
-    margin-top: 20px;
+    margin-top: 0.2%;
     z-index: 1;
     position: absolute;
 
@@ -76,10 +78,10 @@ html, body {
 /*-- second sesson --*/
 
 #carrosel {
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 500px;
 
-    background:gray;
     height: 500px;
 
     display: flex;
@@ -98,20 +100,62 @@ html, body {
 }
 
 /*-- third sesson --*/
-#form {
+
+.feedback {
+    background-color: #fbfdf9 ;
+    
+}
+
+.sendfeedbacks-form {
     height: 500px;
+    padding-left: 200px;
+    padding-right: 200px;
 
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
+}
+
+#data-form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#sendfeedback-titles {
+    margin-top: 20px;
+    font-size: 11px;
+    color: #8cba4e;
+}
+
+.sendfeedback-mensage {
+    width: 100%;
+}
+
+.sendfeedback-boxemail, .sendfeedback-boxname, .sendfeedback-mensage {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    outline-offset: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #8cba4e 1px;
+    padding: 6px 0px 4px 0px;
 }
 
 .button {
     background-color: #FFFFFF;
     border: none;
     color: #8cba4e;
-    padding: 15px 32px;
+    margin-top: 0px;
+    padding: 15px 46.3%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -126,7 +170,7 @@ html, body {
 /* second and third sesson - title definitions */
 
 .topfeedbacks-title, .sendfeedback-title {
-    height: 180px;
+    height: 130px;
 
     position: relative;
 
@@ -134,7 +178,15 @@ html, body {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
+}
+
+#topfeedbacks-text{
+    width: 300px;
+}
+
+#sendfeedbacks-text{
+    width: 400px;
 }
 
 #topfeedbacks-text, #sendfeedbacks-text {
