@@ -88,16 +88,43 @@ html, body {
 }
 
 .topfeedbacks-citiano {
-    height: 300px;
+    
     width: 200px;
     color: black;
     -webkit-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.24);
     background: white;
-    margin: 5px;
 }
 
+#topfeedbacks-carrosel-itens {
+    height: 325px;
+}
+
+#topfeedbacks-pamella {
+    margin-top: 25px;
+    height: 300px;
+    width: 200px;
+    background-image: url("../images/Pamella.jpeg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    
+}
+
+#topfeedbacks-names{
+    position: absolute;
+    margin-top: 0px;
+}
+
+
+
 #topfeedbacks-names {
-  text-align: center;
+    height: 25px;
+    margin-bottom: 25px;
+    padding-top: 7px;
+    text-align: center;
+    position: relative;
 
 }
 
@@ -106,8 +133,8 @@ html, body {
   color: #8cba4e;
 }
 
-.topfeedbacks-strike {
-  
+#topfeedbacks-carrosel-itens {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*-- third sesson --*/
